@@ -11,10 +11,10 @@ field = "Astrophysics"
 institution = "Witswaterant University"
 
 # Display basic profile information
-st.header("Researcher Overview")
-st.write(f"**Name:** {name}")
-st.write(f"**Field of Research:** {field}")
-st.write(f"**Institution:** {institution}")
+st.header("Astrophysicists Study")
+st.write(f"**Maqhawe Lennet Mali:** {name}")
+st.write(f"**Astronomy of the universe:** {field}")
+st.write(f"**Wits Physics and Science center:** {institution}")
 
 st.image(
     "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
@@ -119,4 +119,5 @@ st.header("Contact Information")
 email = "malilennet@yahoo.com"
 
 st.write(f"You can reach {name} at {email}.")
+
 
