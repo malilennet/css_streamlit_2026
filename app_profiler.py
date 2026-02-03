@@ -1,7 +1,5 @@
 
 
-# Title of the app
-st.title("Researcher Profile Page")
 
 # Collect basic information
 name = "Maqhawe Lennet Mali"
@@ -24,6 +22,7 @@ st.header("Contact Information")
 email = "malilennet@yahoo.com"
 
 st.write(f"You can reach {name}at {email}.")
+
 
 
 
