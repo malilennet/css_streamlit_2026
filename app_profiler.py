@@ -19,27 +19,13 @@ st.image(
     caption="Astrophysics (CNRS)"
 )
 
-# Add a section for publications
-st.header("Astrophysicists Study")
-uploaded_file = st.file_uploader("Obsevervational vs Theoretical Astrophysics", type="csv")
-
-if uploaded_file:
-    publications = pd.read_csv(Stars)
-    st.dataframe(Obsevational Astrophysics)
-
-   elif data_option == "Astronomy Observations":
-    st.write("Exoplanets Astronomy Observation Data")
-    st.dataframe(Extreme Ojects )
-    # Add widget to filter by Brightness
-    brightness_filter = st.slider("Filter by Brightness (Magnitude)", -15.0, 5.0, (-15.0, 5.0))
-    filtered_astronomy = astronomy_data[
-        astronomy_data["Brightness (Magnitude)"].between(brightness_filter[0], brightness_filter[1])
 # Add a contact section
 st.header("Contact Information")
 email = "malilennet@yahoo.com"
 
-st.write(f"You can reach {Maqhawe} at {malilennet@yahoo.com}.")
-h
+st.write(f"You can reach {name}at {email}.")
+
+
 
 
 
