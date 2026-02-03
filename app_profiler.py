@@ -8,7 +8,7 @@ st.title("Researcher Profile Page with STEM Data")
 # Collect basic information
 name = "Maqhawe Lennet Mali"
 field = "Astrophysics"
-institution = "Witswaterant University"
+institution = "Witswaterand University"
 
 # Display basic profile information
 st.header("Astrophysicists Study")
@@ -17,8 +17,8 @@ st.write(f"**Astronomy of the universe:** {field}")
 st.write(f"**Wits Physics and Science center:** {institution}")
 
 st.image(
-    "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-    caption="Nature (Pixabay)"
+    "https://news.cnrs.fr/articles/james-webb-illuminates-the-grey-areas-of-astrophysics",
+    caption="Astrophysics (CNRS)"
 )
 
 # Add a section for publications
@@ -40,8 +40,9 @@ if uploaded_file:
 st.header("Contact Information")
 email = "malilennet@yahoo.com"
 
-st.write(f"You can reach {Maqhawe Mali} at {malilennet@yahoo.com}.")
+st.write(f"You can reach {Maqhawe} at {malilennet@yahoo.com}.")
 h
+
 
 
 
