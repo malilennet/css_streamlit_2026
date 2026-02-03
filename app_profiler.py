@@ -118,7 +118,8 @@ elif data_option == "Weather Data":
 st.header("Contact Information")
 email = "malilennet@yahoo.com"
 
-st.write(f"You can reach {name} at {email}.")
+st.write(f"You can reach {Maqhawe Mali} at {malilennet@yahoo.com}.")
+h
 
 
 
