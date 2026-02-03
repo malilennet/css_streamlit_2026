@@ -26,8 +26,8 @@ st.header("Astrophysicists Study")
 uploaded_file = st.file_uploader("Upload a CSV of Publications", type="csv")
 
 if uploaded_file:
-    publications = pd.read_csv(uploaded_file)
-    st.dataframe(publications)
+    publications = pd.read_csv(Stars)
+    st.dataframe(Obsevational Astrophysics)
 
     # Add filtering for year or keyword
     keyword = st.text_input("Filter by keyword", "")
@@ -120,6 +120,7 @@ email = "malilennet@yahoo.com"
 
 st.write(f"You can reach {Maqhawe Mali} at {malilennet@yahoo.com}.")
 h
+
 
 
 
