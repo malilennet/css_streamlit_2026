@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as 
 import pandas as pd
 import numpy as np
 
@@ -22,7 +22,7 @@ st.image(
 )
 
 # Add a section for publications
-st.header("Publications")
+st.header("Astrophysicists Study")
 uploaded_file = st.file_uploader("Upload a CSV of Publications", type="csv")
 
 if uploaded_file:
@@ -119,5 +119,6 @@ st.header("Contact Information")
 email = "malilennet@yahoo.com"
 
 st.write(f"You can reach {name} at {email}.")
+
 
 
