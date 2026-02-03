@@ -3,12 +3,12 @@ import pandas as pd
 import numpy as np
 
 # Title of the app
-st.title("Researcher Profile Page with STEM Data")
+st.title("Researcher Profile")
 
 # Collect basic information
-name = "Dr. Jane Doe"
+name = "Maqhawe Lennet Mali"
 field = "Astrophysics"
-institution = "University of Science"
+institution = "University of Witwatersrand"
 
 # Display basic profile information
 st.header("Researcher Overview")
@@ -118,3 +118,4 @@ elif data_option == "Weather Data":
 st.header("Contact Information")
 email = "jane.doe@example.com"
 st.write(f"You can reach {name} at {email}.")
+
