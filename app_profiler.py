@@ -17,8 +17,8 @@ st.write(f"**Field of Research:** {field}")
 st.write(f"**Institution:** {institution}")
 
 st.image(
-    "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-    caption="Nature (Pixabay)"
+    "https://news.cnrs.fr/sites/default/files/styles/visuel_principal/public/assets/images/weic2425c_72dpi.jpg?itok=YIAl03KF",
+    caption="Astrophysics (CNRS)"
 )
 
 # Add a section for publications
@@ -118,5 +118,6 @@ elif data_option == "Weather Data":
 st.header("Contact Information")
 email = "malilennet@yahoo.com"
 st.write(f"You can reach {name} at {email}.")
+
 
 
