@@ -1,6 +1,4 @@
-import streamlit a
-import pandas as pd
-import numpy as np
+
 
 # Title of the app
 st.title("Researcher Profile Page with STEM Data")
@@ -42,6 +40,7 @@ email = "malilennet@yahoo.com"
 
 st.write(f"You can reach {Maqhawe} at {malilennet@yahoo.com}.")
 h
+
 
 
 
